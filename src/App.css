@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+
+  display:flex;
+  gap:60px;
+  align-items:center;
+
+  height:60px;
+
+  background: rgba(255,255,255,0.25);
+
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.navbar div:hover{
+
+  background-color: rgba(0,0,0,0.15);
+
+  color: rgb(30,30,30);
+
+  cursor:pointer;
+
+}
+.navitem{
+
+  padding:6px 14px;
+
+  border-radius:20px;
+
+  background-color: rgba(60,60,60,0.08);
+
+  color:black;
+
+  transition:0.3s;
+
+}
+.navimage img:hover{
+  cursor: pointer;
+}
